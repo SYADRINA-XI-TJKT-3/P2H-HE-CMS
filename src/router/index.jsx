@@ -9,8 +9,8 @@ export default function AppRoutes() {
     <Routes>
       <Route path="/login" element={<LoginPages />} />
       <Route path="/" element={<HomePages />} />
-      <Route path="/register" element={<RegisterPage/>} />
+<Route path="/register" element={<RegisterPage/>} />
       <Route path="/forgot" element={<ForgotPassword/>} />
-    </Routes>
+          </Routes>
   );
 }
