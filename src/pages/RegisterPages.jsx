@@ -1,8 +1,8 @@
 import { useState } from "react";
-import Button from "../components/Button";
+import Button from "../Components/Button";
 import Logo from "../assets/logo.png";
 import { Link } from "react-router-dom";
-import auth from "../services/authServices"; 
+import auth from "../Services/authServices"; 
 
 export default function RegisterPage() {
   const [showPassword, setShowPassword] = useState(false);
