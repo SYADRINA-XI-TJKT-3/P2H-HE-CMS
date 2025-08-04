@@ -6,7 +6,7 @@ const Button = ({ label, disabled, onClick }) => {
       type="submit"
       onClick={onClick}
       disabled={disabled}
-      className={`font-semibold text-smr text-white mt-2 w-[300px] h-[49px] py-3 px-4 rounded-lg transition duration-200 ${
+      className={`w-full font-semibold text-white mb-5 py-3 px-[49px] rounded-lg transition duration-200 ${
         disabled
           ? 'bg-gray-300 text-gray-500 cursor-not-allowed'
           : 'bg-[#FD5000] text-white hover:bg-orange-700 cursor-pointer'
@@ -17,4 +17,4 @@ const Button = ({ label, disabled, onClick }) => {
   );
 };
 
-export default Button;
+export default Button;

@@ -1,15 +1,5 @@
 @import "tailwindcss";
 
-input::-ms-reveal,
-input::-ms-clear,
-input::-webkit-credentials-auto-fill-button {
-  display: none !important;
-}
-
-input::-webkit-textfield-decoration-container {
-  display: none !important;
-}
-
 /* Sembunyikan icon mata bawaan browser */
 input::-ms-reveal,
 input::-ms-clear,

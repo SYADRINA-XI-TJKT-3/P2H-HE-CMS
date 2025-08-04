@@ -1,6 +1,6 @@
 // src/App.jsx
 import { BrowserRouter } from "react-router-dom";
-import AppRoutes from "./router";
+import AppRoutes from "./router"; // <- pakai versi master (karena folder kamu namanya 'router')
 
 function App() {
   return (
