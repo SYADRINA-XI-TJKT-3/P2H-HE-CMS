@@ -1,5 +1,5 @@
 import axios from "axios";
-import { RegisterPage } from "../api/apiUrls.js";
+// import { RegisterPage } from "../api/apiUrls";
 
 class auth {
   async RegisterPage(dataRegister) {
