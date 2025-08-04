@@ -1,5 +1,5 @@
 import axios from "axios";
-import { LoginPages } from "../api/apiUrls";
+import { LoginPages } from "../Api/apiUrls";
 
 class auth {
   async LoginPages(dataLogin) {
