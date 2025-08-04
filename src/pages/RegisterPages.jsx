@@ -215,7 +215,7 @@ export default function RegisterPage() {
               }}
             />
           </form>
-          <p className="text-center text-[16px] text-[#8F8F8F] mt-1 mb-1">
+          <p className="text-center text-[16px] text-[#8F8F8F] mt-1 mb-3">
             Already have an account?{" "}
             <span className="text-black font-medium hover:underline cursor-pointer">
               Login
