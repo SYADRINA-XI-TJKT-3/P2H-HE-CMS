@@ -1,1 +1,0 @@
-export const LoginPages = "https://regres.in/api/Login";
