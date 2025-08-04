@@ -1,7 +1,7 @@
 import { useState } from "react";
-import Button from "../components/Buton";
+import Button from "../Components/Button";
 import Logo from "../assets/logo.png";
-import authService from "../services/authService";
+import authService from "../Services/authServices";
 
 export default function ForgotPasswordPage() {
   const [email, setEmail] = useState("");
@@ -32,7 +32,7 @@ export default function ForgotPasswordPage() {
         min-h-screen 
         flex items-center justify-center 
         bg-white
-        md:bg-[url('bg.png')]       
+        md:bg-[url('bg.jpg')]       
         md:bg-cover md:bg-center md:bg-no-repeat
       "
     >
