@@ -140,7 +140,6 @@ const onSubmit = async () => {
                   type="checkbox"
                   id="remember"
                   className="w-4 accent-[#FD5000] text-[#1E1E1E] h-4"
-                  onChange={() => setRemember(!remember)} 
                 />
                 Remember me
               </label>
