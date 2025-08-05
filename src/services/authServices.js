@@ -1,5 +1,5 @@
-import axios from "axios";
-import { RegisterPage, LoginPages } from "../api/apiUrls.js";
+// import axios from "axios";
+// import { RegisterPage, LoginPages } from "../api/apiUrls.js";
 
 class auth {
   async RegisterPage(dataRegister) {
@@ -44,6 +44,25 @@ class auth {
       console.error("❌ Gagal Login:", error.response?.data || error.message);
     }
   }
+  async ForgotPassword(dataforgotpassword) {
+
+    try {
+      const headers = {
+        "Content-Type": "application/json",
+      };
+
+      const bodyReq = {
+        email: dataforgotpassword.email,
+      };
+         console.log("Respon dari server dummy:", bodyReq);
+
+      // const result = await axios.post(forgotpassword, bodyReq, { headers });
+      // return result.data;
+    } catch (error) {
+      console.error("Terjadi error saat kirim forgot password:", error.response?.data || error.massage);
+    }
+  }
+
 }
 
 export default new auth();

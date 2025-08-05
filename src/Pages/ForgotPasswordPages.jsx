@@ -1,7 +1,8 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import Button from "../Components/Button";
 import Logo from "../assets/logo.png";
-import authService from "../services/authService";
+import authService from "../services/authServices";
 
 export default function ForgotPasswordPage() {
   const [email, setEmail] = useState("");
@@ -20,7 +21,6 @@ export default function ForgotPasswordPage() {
       email,
     };
     await authService.ForgotPassword(dataforgotpassword); 
-    
 
     setSubmitted(true);
     setEmail("");
@@ -92,9 +92,12 @@ export default function ForgotPasswordPage() {
 
         <p className="text-center text-[16px] mt-4 font-normal text-neutral-600">
           ← Back to page{" "}
-          <span className="text-neutral-800 text-[16px] mb-8 font-bold underline cursor-pointer">
+          <Link
+            to="/login"
+            className="text-neutral-800 text-[16px] mb-8 font-bold underline hover:text-orange-600"
+          >
             Login
-          </span>
+          </Link>
         </p>
       </div>
     </div>
