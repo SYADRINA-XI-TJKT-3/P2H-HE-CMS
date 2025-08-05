@@ -147,7 +147,7 @@ export default function RegisterPage() {
             />
             {password !== confirmPassword && (
               <span className="absolute text-xs text-red-500 mt-1 left-0 top-full">
-                Passwords do not match.
+                Incorrect Password.
               </span>
             )}
             {confirmPassword && (
@@ -213,7 +213,7 @@ export default function RegisterPage() {
 
         </form>
 
-        <p className="text-center text-[16px] text-[#8F8F8F] mt-1 mb-3">
+        <p className="text-center text-[16px] text-[#8F8F8F] mt-0.5 mb-1">
           Already have an account?{" "}
           <Link
             to="/login"
