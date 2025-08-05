@@ -9,6 +9,7 @@ export default function Button({ onClick, children, disabled, type = "button" })
           ? "bg-gray-300 cursor-not-allowed"
           : "bg-orange-500 hover:bg-orange-600 cursor-pointer"
       }`}
+      
     >
       {children}
     </button>
