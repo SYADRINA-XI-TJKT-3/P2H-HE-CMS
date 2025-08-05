@@ -161,7 +161,10 @@ export default function LoginPage() {
               e.preventDefault();
               onSubmit();
             }}
-          />
+              >
+              LOGIN
+            </Button>
+          
         </form>
 
         <p className="text-sm text-center text-[16px] text-[#8F8F8F] mt-4">

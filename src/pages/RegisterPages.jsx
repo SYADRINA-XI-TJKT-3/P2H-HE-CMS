@@ -202,13 +202,15 @@ export default function RegisterPage() {
           </div>
 
           <Button
-            label="SIGN UP"
             disabled={!isFormValid}
             onClick={(e) => {
               e.preventDefault();
               onSubmit();
             }}
-          />
+            >
+              SIGN UP
+              </Button>
+              
         </form>
 
         <p className="text-center text-[16px] text-[#8F8F8F] mt-1 mb-3">
