@@ -1,20 +1,16 @@
-import React from 'react';
-
-const Button = ({ label, disabled, onClick }) => {
+export default function Button({ onClick, children, disabled, type = "button" }) {
   return (
     <button
-      type="submit"
+      type={type}
       onClick={onClick}
       disabled={disabled}
-      className={`w-full font-semibold text-white mb-2 mt-2 py-3 px-[49px] rounded-lg transition duration-200 ${
+      className={`w-full h-[48px] rounded-md font-semibold text-white ${
         disabled
-          ? 'bg-gray-300 text-gray-500 cursor-not-allowed'
-          : 'bg-[#FD5000] text-white hover:bg-orange-700 cursor-pointer'
+          ? "bg-gray-300 cursor-not-allowed"
+          : "bg-orange-500 hover:bg-orange-600 cursor-pointer"
       }`}
     >
-      {label}
+      {children}
     </button>
   );
-};
-
-export default Button;
+}
