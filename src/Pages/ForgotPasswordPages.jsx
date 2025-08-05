@@ -32,7 +32,7 @@ export default function ForgotPasswordPage() {
         min-h-screen 
         flex items-center justify-center 
         bg-white
-        md:bg-[url('bg.jpg')]       
+        md:bg-[url('/bg.jpg')]       
         md:bg-cover md:bg-center md:bg-no-repeat
       "
     >

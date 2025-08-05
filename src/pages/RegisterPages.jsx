@@ -33,7 +33,7 @@ export default function RegisterPage() {
       className="min-h-screen 
       flex items-center justify-center 
       bg-white 
-      md:bg-[url('bg.jpg')]
+      md:bg-[url('/bg.jpg')]
       md:bg-cover md:bg-center md:bg-no-repeat"
     >
       <div className="bg-white px-10 py-8 shadow-[0_4px_15px_rgba(0,0,0,0.15)] sm:shadow-none w-[380px] h-[644px] max-w-md rounded-none">
@@ -210,7 +210,7 @@ export default function RegisterPage() {
             >
               SIGN UP
               </Button>
-              
+
         </form>
 
         <p className="text-center text-[16px] text-[#8F8F8F] mt-1 mb-3">

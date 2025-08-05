@@ -28,7 +28,7 @@ export default function LoginPage() {
       className="min-h-screen 
         flex items-center justify-center 
         bg-white                   
-        md:bg-[url('bg.jpg')]      
+        md:bg-[url('/bg.jpg')]      
         md:bg-cover md:bg-center md:bg-no-repeat"
     >
       <div className="bg-white rounded-none shadow-md max-w-md w-[380px] h-[620px] py-9 px-10">
