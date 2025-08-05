@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import Button from "../Components/Button_temp";
-import Logo from "../assets/logo.png";
+import Logo from "../Assets/logo.png";
 import auth from "../services/authServices";
 
 export default function RegisterPage() {
@@ -154,7 +154,7 @@ export default function RegisterPage() {
               <button
                 type="button"
                 onClick={() => setShowConfirmPassword(!showConfirmPassword)}
-                className="absolute top-9 right-2 mt-4 transform -translate-y-1/2 text-gray-500"
+                className="absolute top-10 right-2 mt-4 transform -translate-y-1/2 text-gray-500"
               >
                 {showConfirmPassword ? (
                   // Icon mata buka

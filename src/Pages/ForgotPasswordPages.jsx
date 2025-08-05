@@ -94,7 +94,7 @@ export default function ForgotPasswordPage() {
           ← Back to page{" "}
           <Link
             to="/login"
-            className="text-neutral-800 text-[16px] mb-8 font-bold underline hover:text-orange-600"
+            className="text-neutral-800 text-[16px] mb-8 font-bold hover:underline"
           >
             Login
           </Link>
